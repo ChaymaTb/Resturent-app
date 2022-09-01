@@ -1,0 +1,41 @@
+.header{
+    /* background: url('https://img.freepik.com/free-vector/seamless-gold-rhombus-grid-pattern-black-background_53876-97589.jpg?w=740&t=st=1661684789~exp=1661685389~hmac=a28cfb8594a4852bda123b97b803aa6ac75a262d8d407ba3fcd330f6e40b4ecc');
+    background-size: cover; */
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    column-gap: 40px;
+    border-bottom: 2px solid #dabc62;
+    height: 500px;
+}
+.title{
+    
+}
+.header h2{
+    font-family:Bahnschrift SemiBold;
+    color: #dabc62;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 60px;
+    font-size: 40px;
+    width: 340px;
+}
+.header p{
+    width: 500px;
+}
+.header button{
+    margin-top: 25px;
+    font-weight: 700;
+    background-color: #dabc62;
+    padding: 9px;
+    border-radius: 4px;
+}
+.welcome-img img{ 
+    width: 400px;
+    height: 400px;
+}
+.header-title{
+    color: azure;
+    height: 550px;
+}

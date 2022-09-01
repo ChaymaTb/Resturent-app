@@ -1,0 +1,33 @@
+.plate_description{
+    background-color: black;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    padding: 30px;
+    border-bottom: 1px solid #dabc62;
+}
+.descr{
+    display: flex;
+    gap: 30px;
+}
+.descr_img img{
+    border: 2px solid grey;
+    width: 400px;
+    height: 400px;
+}
+.descr_img h3{
+    position: absolute;
+    top: 500px;
+    color: black;
+    background-color: azure;
+    font-weight: 600;
+    padding: 5px;
+    margin-left: 2px;
+}
+.descr_p{
+    width: 350px;
+    display: flex;
+    align-items: center;
+}

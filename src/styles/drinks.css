@@ -1,0 +1,85 @@
+.drinks{
+    background-color: black ;
+    color: azure;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+    gap: 20px;
+    height: 550px;
+    border-bottom: 2px solid #dabc62;
+}
+.specialMenu-title{
+    display: flex;
+    flex-wrap: wrap;
+    width: 35%;
+    justify-content: center;
+}
+.specialMenu-title h4{
+    font-family: Malgun Gothic Semilight;
+    font-size: 1.3em;
+    font-weight: 100;
+    color: azure;
+}
+.specialMenu-title h5{
+    font-family: Lucida Handwriting;
+    font-size: 2.2em;
+    font-weight: 100;
+    color: #dabc62;
+}
+.spoon_menu_img{
+    width: 50%;
+    margin-left: 180px;
+    margin-bottom: 20px;
+}
+.spoon_menu_img img{
+    width: 30px;
+    height: 9px;
+}
+.specialMenu-menu{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 40px;
+    margin-left: 100px;
+}
+/* juice title+price */
+.juice_price{
+    display: flex;
+}
+.specialMenu-menu_img img{
+    width: 290px;
+    height: 430px;
+}
+.specialMenu-menu_juice{
+    width: 170px;
+    padding: 10px;
+    row-gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.specialMenu_menu_items{
+    color: #f7e2a9;
+}
+.juice_price{
+    column-gap: 150px;
+    row-gap: 30px;
+    margin-bottom: 22px;
+}
+.juice_price p{
+    width: 30px;
+}
+
+.specialMenu-menu_softdrinks{
+    width: 250px;
+    padding: 10px;
+    row-gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.specialMenu-menu_heading{
+    font-family: Lucida Handwriting;
+    font-size: 1.5em;
+    font-weight: 100;
+    color: azure;
+}

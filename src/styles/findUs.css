@@ -1,0 +1,39 @@
+.find_us{
+    /* background: url('https://img.freepik.com/free-photo/black-gold-marble-texture_125540-1516.jpg?w=740&t=st=1661684858~exp=1661685458~hmac=3dd643461acf651cb449c22f43a3f169872cdfa3d4db8686b3c5f61e333e23cc');
+    background-size: cover; */
+    background-color: black;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #dabc62;
+    gap: 25px;
+}
+.findus_title{
+    color: azure;
+}
+.findus_img img{
+    width: 400px;
+    height: 400px;
+}
+.findus_info h2{
+    font-family: Bahnschrift SemiBold;
+    color: #dabc62;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 60px;
+    font-size: 40px;
+    width: 340px;
+}
+.opensans{
+    color: azure;
+    font-family: Bahnschrift SemiBold;
+    font-weight: 300;
+}
+.custom__button{
+    margin-top: 25px;
+    font-weight: 700;
+    background-color: #dabc62;
+    padding: 9px;
+    border-radius: 4px;
+}

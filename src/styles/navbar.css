@@ -1,0 +1,32 @@
+.navbar{
+    width: 100%;
+    color: azure;
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+.navbar li{
+    color: azure;
+}
+.navbar img{
+    width: 80px;
+    height: 80px;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    column-gap: 20px;
+}
+.navigation li:hover{
+    color: grey;
+}
+.login li:hover{
+    border-bottom: 1px solid grey;
+}
+.login ul li div{
+    width: 1px;
+    height: 30px;
+    background-color: grey;
+}
